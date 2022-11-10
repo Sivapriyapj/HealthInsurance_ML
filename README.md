@@ -15,10 +15,11 @@ The same has been containarized using docker.
 
 
 ## How to run the prediction service on your system
-* Item1
-* Item 2
-
-
+* Install docker if you do not have docker in your system
+* Install pip in your system
+* pull docker image to the current working directory by typing **docker run -it --rm entrypoint=bash zoomcamp-test:latest** on the terminal of your IDE.
+* build the image using  **docker build -t zoomcamp-test .** on the terminal of your IDE.
+* Open a new terminal and run pyth
 
 
 |File name|Description|
