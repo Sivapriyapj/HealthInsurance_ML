@@ -20,7 +20,7 @@ The same has been containarized using docker.
 * Install other required libraries: **pipenv install numpy pandas sklearn====1.1.3 flask waitress====2.1.2**
 * activating the shell : **pipenv shell**
 * Install xgboost : **pipenv install xgboost**
-* Install any dependency you need to as shown in the error message, if it throws an error as some module is missing while running the program*
+* Install any dependency you need to as shown in the error message, if it throws an error as some module is missing while running the program
 * fork or clone the repository to working directory if needed to run from IDE.
 
 
