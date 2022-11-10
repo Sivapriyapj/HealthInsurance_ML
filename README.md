@@ -21,15 +21,18 @@ The same has been containarized using docker.
 * activating the shell : **pipenv shell**
 * Install xgboost : **pipenv install xgboost**
 * Install any dependency you need to as shown in the error message, if it throws an error as some module is missing while running the program*
+* fork or clone the repository to working directory if needed to run from IDE.
 
 
 ## How to run the prediction service on your system
+
 
 * build the image using  **docker build -t zoomcamp-test .** on the terminal of your IDE.
 * Open a new terminal and run **docker run -it -p 9696:9696 zoomcamp-test:latest**
 * open a new terminal in your IDE and type : **python predict_test.py**
 
 Alternatively, you can directly run it from the terminal :
+
 * Download all the files/clone the repo to your system
 * Navigate to the project directory in terminal
 * run **python predict.py**
