@@ -19,6 +19,7 @@ The same has been containarized using docker.
 * Install pip in your system
 * build the image using  **docker build -t zoomcamp-test .** on the terminal of your IDE.
 * Open a new terminal and run **docker run -it -p 9696:9696 zoomcamp-test:latest**
+* open a new terminal in your IDE and type : **python predict.py**
 
 
 |File name|Description|
