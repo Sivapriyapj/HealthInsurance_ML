@@ -15,15 +15,14 @@ The same has been containarized using docker.
 
 ## Installing dependencies and activating the environment
 
-*Installing pipenv : **pip install pipenv**
+* Install pipenv : **pip install pipenv**
 * Install python version 3.8 or greater
-*pipenv install 
-*Installing other required libraries: **pipenv install numpy pandas sklearn====1.1.3 flask waitress====2.1.2**
-*activating the shell : **pipenv shell**
+* Install other required libraries: **pipenv install numpy pandas sklearn====1.1.3 flask waitress====2.1.2**
+* activating the shell : **pipenv shell**
 * Install xgboost : **pipenv install xgboost**
 * Install any dependency you need to as shown in the error message, if it throws an error as some module is missing while running the program*
 
-https://forms.gle/Hnk267ue7LPyR5bs5
+
 ## How to run the prediction service on your system
 
 * build the image using  **docker build -t zoomcamp-test .** on the terminal of your IDE.
